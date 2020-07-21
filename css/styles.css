@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.page-wrapper {
+  background-color: #cbf1f1; }
+
+.container-fluid {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg"); }
+
+.container {
+  height: 100vh;
+  color: #cbf1f1; }
+  .container header {
+    height: 100px; }
+    .container header a {
+      font-weight: 700;
+      color: #cbf1f1; }
+      .container header a:hover {
+        text-decoration: none;
+        color: rgba(203, 241, 241, 0.8); }
+  .container .title {
+    margin-top: 120px; }
+    .container .title .logo {
+      font-weight: 700; }
+    .container .title .moto {
+      background-color: #cbf1f1; }
+      .container .title .moto .moto-text {
+        color: #20385a; }
+  .container .book-search-form input::placeholder {
+    color: #cbf1f1; }
+  .container .book-search-form .btn {
+    background-color: transparent;
+    color: #20385a; }
+    .container .book-search-form .btn:focus {
+      box-shadow: none; }
+    .container .book-search-form .btn:hover {
+      color: #cbf1f1; }
+  .container .search {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #20385a;
+    color: #cbf1f1;
+    font-size: 2rem; }
+    .container .search:focus {
+      outline: none;
+      box-shadow: none; }

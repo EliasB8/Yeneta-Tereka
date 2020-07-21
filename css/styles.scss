@@ -1,0 +1,82 @@
+$teal: #cbf1f1;
+$darkBlue: #20385a;
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.page-wrapper {
+    background-color: $teal;
+}
+
+.container-fluid {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg");
+}
+
+.container {
+    // font-family: 'Lato', sans-serif;
+    height: 100vh;
+    color: $teal;
+
+    header {
+        height: 100px;
+
+        a {
+            font-weight: 700;
+            color: $teal;
+
+            &:hover {
+                text-decoration: none;
+                color: rgba(203, 241, 241, 0.8);
+            }
+        }
+    }
+
+    .title {
+        margin-top: 120px;
+
+        .logo {
+            font-weight: 700;
+        }
+
+        .moto {
+            background-color: $teal;
+
+            .moto-text {
+                color: $darkBlue;
+            }
+        }
+    }
+
+    .book-search-form {
+        input::placeholder {
+            color: $teal;
+        }
+
+        .btn {
+            background-color: transparent;
+            color: $darkBlue;
+
+            &:focus {
+                box-shadow: none;
+            }
+
+            &:hover {
+                color: $teal;
+            }
+        }
+    }
+
+    .search {
+        background-color: transparent;
+        border: none;
+        border-bottom: 4px solid $darkBlue;
+        color: $teal;
+        font-size: 2rem;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
